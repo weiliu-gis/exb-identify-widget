@@ -74,18 +74,22 @@ const Identify = (props) => {
             //If the graphic comes from the current layer, process the results
             if (graphic.layer === layer) {
               //Highlight the feature
-              if (
-                layerView.layer.type === "feature" &&
-                typeof layerView.highlight === "function" &&
-                layer.title === "TITLE_OF_LAYER_TO_BE_HIGHTLIGHTED"
-              ) {
-                // console.log("Event3:", highlights.current.length) /////////////////////////////////////
-                // console.log(highlights.current.length); ////////////////////////////////////////////////////
-                const newHighlight = handles.add(layerView.highlight(graphic));
-                highlights.current.push(newHighlight);
-                highlighted = true;
-                // console.log(highlights.current.length); ////////////////////////////////////////////////////
-              }
+              setTimeout(() => {
+                if (
+                  layerView.layer.type === "feature" &&
+                  typeof layerView.highlight === "function" &&
+                  layer.title === "TITLE_OF_LAYER_TO_BE_HIGHTLIGHTED"
+                ) {
+                  // console.log("Event3:", highlights.current.length) /////////////////////////////////////
+                  // console.log(highlights.current.length); ////////////////////////////////////////////////////
+                  const newHighlight = handles.add(
+                    layerView.highlight(graphic)
+                  );
+                  highlights.current.push(newHighlight);
+                  highlighted = true;
+                  // console.log(highlights.current.length); ////////////////////////////////////////////////////
+                }
+              }, 1000);
               //Create a Feature widget from the API for each graphic
               const featureChild = new Feature({
                 container: document.createElement("div"),

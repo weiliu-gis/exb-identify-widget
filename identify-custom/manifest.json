@@ -3,13 +3,16 @@
   "label": "Identify",
   "type": "widget",
   "version": "1.15.0",
-  "dependency": ["jimu-arcgis"],
+  "dependency": [ "jimu-arcgis" ],
   "exbVersion": "1.15.0",
   "author": "Jeffrey Thompson, Wei Liu",
-  "description": "There are several modifications added by Wei Liu based on the original code from Jeffrey Thompson.",
+  "description": "There are several modifications added based on the original code is from Jeffrey Thompson.",
+  "copyright": "City of Arlington",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "properties": {},
-  "translatedLocales": ["en"],
+  "translatedLocales": [
+    "en"
+  ],
   "defaultSize": {
     "width": 800,
     "height": 500

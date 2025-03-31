@@ -5,7 +5,7 @@
   "version": "1.15.0",
   "exbVersion": "1.15.0",
   "author": "Esri R&D Center Beijing, Wei Liu",
-  "description": "The code is originally from ESRI developer guide and has been customized by Wei Liu to be used with the custom identify widget.",
+  "description": "The code is originally from ESRI developer guide and has been customized to be used with the identify widget.",
   "copyright": "",
   "publishMessages": [
     {
