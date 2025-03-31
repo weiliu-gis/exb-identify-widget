@@ -7,6 +7,8 @@ The major part of the idea and the code for [this custom widget](https://communi
 - [Identify Widget from Mouse Click or Search Widget (First version of the custom Identify Widget)](https://community.esri.com/t5/experience-builder-custom-widgets/identify-widget-from-mouse-click-or-search-widget/tac-p/1596103#M234)
 - [Identify for Experience Builder 1.14 (The updated Version)](https://community.esri.com/t5/experience-builder-custom-widgets/identify-for-experience-builder-1-14/ta-p/1480343)
 
+![Example use case of this custom widget](example.png)
+
 # Use this widget
 
 ArcGIS Experience Builder Developer Edition is required. See documentation by Esri to establish the development environment [here](https://developers.arcgis.com/experience-builder/guide/install-guide/).
