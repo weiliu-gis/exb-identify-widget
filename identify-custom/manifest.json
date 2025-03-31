@@ -1,0 +1,17 @@
+{
+  "name": "identify-custom",
+  "label": "Identify",
+  "type": "widget",
+  "version": "1.15.0",
+  "dependency": ["jimu-arcgis"],
+  "exbVersion": "1.15.0",
+  "author": "Jeffrey Thompson, Wei Liu",
+  "description": "There are several modifications added by Wei Liu based on the original code from Jeffrey Thompson.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": ["en"],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
