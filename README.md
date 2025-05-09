@@ -23,7 +23,7 @@ It's important to mention that the "Identify" actually consists of two widgets: 
 
 To make the re-built App look and function similarly to the old App, I modified the code in the following ways:
 
-#### 1. Instead of showing fueature layers' information in a tab view, a scrollable page view is applied.
+#### 1. Instead of showing feature layers' information in a tab view, a scrollable page view is applied.
 
 The code that controls the layout of Identify's results is in `./identify-custom/src/components/results.tsx`. To keep the tab view, use:
 
@@ -95,4 +95,4 @@ if (!div.innerHTML.trim()) {
 
 # Limitation
 
-The Search Widget delays the reponses quite a bit on the layer source search requests. It works normally with locator source search attempts.
+The Search Widget delays the responses quite a bit on the layer source search requests. It works normally with locator source search attempts.
