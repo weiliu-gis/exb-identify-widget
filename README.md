@@ -1,6 +1,6 @@
 # Introduction
 
-One of our most popular web map application relies heavily on the "Identify" widget from ArcGIS WebApp Builder. Since WebApp Builder will retire soon, it's necessary to re-build our old App with ArcGIS Experience Builder. The same fucntionality provided by "Identify" does not come with Experience Builder (at least at the time I write this). So the idea strikes us that we can use a custom widget ourselves.
+One of our most popular web map application relies heavily on the "Identify" widget from ArcGIS WebApp Builder. Since WebApp Builder will retire soon, it's necessary to re-build our old App with ArcGIS Experience Builder. The same functionality provided by "Identify" does not come with Experience Builder (at least at the time I write this). So the idea strikes us that we can use a custom widget ourselves.
 
 The major part of the idea and the code for [this custom widget](https://community.esri.com/t5/experience-builder-custom-widgets/identify-for-experience-builder-1-14/tac-p/1594245#M232) is introduced by [@JeffreyThompson2](https://community.esri.com/t5/user/viewprofilepage/user-id/677423) from Esri community group of Experience Builder Custom Widgets. Shared as below, the two posts by Jeffery are really helpful for understanding the design logic of the widget.
 
